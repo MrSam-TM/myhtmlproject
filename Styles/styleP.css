@@ -1,0 +1,125 @@
+body{
+    max-width: 1200px;
+    background-color:rgb(252, 237, 237);
+    margin: 0 auto;
+    border-radius: 15% 2px groove black;
+
+}
+
+li{
+    display: inline-block;
+    margin: 7px;
+    padding: 1em 5em;
+    border-left: 2px black;
+    
+}
+
+.nav{
+    background-color: black;
+    background-size: 20%;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+nav a{
+   /* background-image: url("../../SAMUEL.jpg");*/
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav a:hover{
+    color: gold;
+    
+}
+
+nav img{
+    border-radius: 50%;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: seagreen;
+}
+
+.home{
+    margin-right: 5px;
+    margin-left: 3px;
+}
+
+header{
+    text-align: end;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2em;
+    text-decoration-color: tomato;
+
+}
+
+header::first-letter{
+    color: gold;
+    font-family: cursive;
+    
+}
+
+h1{
+    font-size: 2.5em;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+
+span{
+    background-color: rgb(78, 27, 27);
+    text-shadow: 2px 2px white;
+    font-weight: bold;
+    border: 2px dotted red;
+}
+
+.cap{
+    background-color:#155ce0;
+    color: rgb(240, 171, 171);
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.container{
+    width: 800px;
+   margin: 0 auto;
+
+}
+
+
+h2{
+    text-transform: uppercase;
+    color: red;
+    text-align: center;
+    padding-bottom: 20px;
+    font-style: italic;
+}
+
+.main{
+    /*width: 100%;*/
+    float: right;
+    background-color: silver;
+    text-align: justify;
+    font-size: 1.3rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer{
+    clear: both;
+    text-align: right;
+    padding: 10px;
+    background-color: #999999;
+    color: white;
+    
+}
+
+
+
+
+
+
+

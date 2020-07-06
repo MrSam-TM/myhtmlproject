@@ -1,0 +1,187 @@
+body{
+
+    background-color:#000;
+    border: 3px groove #fff;
+}
+
+li{
+    display: inline-block;
+    margin: 7px;
+    padding: 1em 5em;
+    
+}
+
+.nav{
+    background-color: black;
+    background-size: 20%;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+nav a{
+   /* background-image: url("../../SAMUEL.jpg");*/
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav a:hover{
+    color: gold;
+    
+}
+
+nav img{
+    border-radius: 50%;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: seagreen;
+}
+
+header{
+    color: #fff;
+    text-align: end;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2em;
+    text-decoration-color: tomato;
+
+}
+
+header::first-letter{
+    color: gold;
+    font-family: cursive;
+    
+}
+
+span{
+    background-color: rgb(78, 27, 27);
+    text-shadow: 5px 2px blue;
+    font-weight: bolder;
+    border: 2px dotted red;
+}
+
+.container{
+    background-image: url("../../flower2.jpg");
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 900px;
+    height: 900px;
+    margin: 15px auto;
+     
+}
+
+
+.grid{
+    background-color: #000;
+    text-transform: uppercase;
+    color: #ffffff;
+    grid-column: 1/4;
+    margin: auto;
+    font-size: 3em;
+    font-variant: small-caps;
+    
+}
+.gee{
+    text-transform: uppercase;
+    background-color: #23aa;
+    color: #ffffff;
+    grid-column: 1/4;
+    margin: auto;
+    font-style: italic;
+    font-size: 2rem;
+    text-align: justify;
+
+    
+
+}
+.yes{
+    background-color:red;
+    text-transform: uppercase;
+    color: #ffffff;
+    grid-column: 1/4;
+    margin: auto;
+    font-size: 3em;
+    font-variant: small-caps;
+    border-radius: 15%;
+    text-shadow: 3px 2px blueviolet;
+}
+
+
+
+.red{
+    background-color: #23aa;
+    text-transform: uppercase;
+    color: #ffffff; 
+    margin: auto;
+    font-style: italic;
+    font-size: 2rem;
+    text-align: justify;
+    border: 3px 2px dotted red;
+    
+
+}
+
+.gold{
+    background-color: gold;
+    text-transform: uppercase;
+    color: #ffffff;
+    grid-column: 2/4;
+    margin: auto;
+    font-style: italic;
+    font-size: 2rem;
+    text-align: justify;
+    
+
+
+
+}
+
+.big{
+    background-color: #096628cc;
+    text-transform: uppercase;
+    color: #302424;
+    grid-column: 3/1;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-shadow: 4px 2px rgb(233, 29, 29);
+    margin: auto;
+    border-radius: 5%;
+    padding-right: 5px;
+    padding-left: 5px;
+
+}
+.wide{
+    background-color: #23aa;
+    text-transform: uppercase;
+    color: #ffffff;
+    grid-column: 1/4;
+    margin: auto;
+    font-size: 3em;
+    font-variant: small-caps;
+    text-shadow: 3px 2px brown;
+    border-radius: 5%;
+    
+    
+
+}
+
+.fine{
+    background-color:red;
+    text-transform: uppercase;
+    color: #ffffff;
+    
+    text-align: center;
+    border-radius:45%;
+    
+}
+
+.daw{
+    background-color: #096628cc;
+    text-transform: uppercase;
+    color: #ffffff;
+    grid-column: 2/4;
+    text-align: center; 
+    margin:7px;  
+}
+

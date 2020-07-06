@@ -1,0 +1,166 @@
+body{
+    background-color: whitesmoke;
+    max-width: 1200px;
+    height: 800px;
+    margin: 0 auto;
+    
+}
+
+li{
+    display: inline-block;
+    margin: 7px;
+    padding: 1em 5em;
+    
+}
+
+.nav{
+    background-color: black;
+    background-size: 20%;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+nav a{
+   /* background-image: url("../../SAMUEL.jpg");*/
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav a:hover{
+    color: gold;
+    
+}
+
+nav img{
+    border-radius: 50%;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: seagreen;
+}
+
+.home{
+    margin-right: 5px;
+    margin-left: 3px;
+}
+
+header{
+    text-align: end;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2em;
+    text-decoration-color: tomato;
+
+}
+
+header::first-letter{
+    color: gold;
+    font-family: cursive;
+    
+}
+
+h1{
+    font-size: 2.5em;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+
+span{
+    background-color: rgb(78, 27, 27);
+    text-shadow: 2px 2px white;
+    font-weight: bold;
+    border: 2px dotted red;
+}
+
+h2{
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+ 
+h3{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+
+.wrapper p{
+    text-align: justify;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.content{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-transform: capitalize;
+    text-align: center;
+    color: gold;
+    text-shadow: 5px 2px green;
+}
+
+
+.lastdiv{
+    color: rgba(12, 12, 4, 0.856);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-shadow: 5px 2px rgb(238, 151, 151);
+
+}
+
+.videos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 5px dotted pink;
+   
+}
+
+.content{
+    background-image: url("../../flowers.jpg");
+    background-repeat: repeat;
+    height: 400px;
+    padding-right: 20px;
+   
+}
+
+.videos{
+    grid-auto-rows: 50%;
+    align-content: stretch;
+    /*padding-bottom: 25px;
+    padding-top: 20px;*/
+    padding: 20px 25px;
+    
+    
+}
+
+img:hover{
+    filter: brightness(7);
+    filter: contrast(6);
+    filter: grayscale(40%);
+    filter: sepia(30%);
+}
+
+.more{
+    text-align: ends;
+    padding-top: 20px;
+    font-size: 1.5em;
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 2px;
+    text-align: right;
+    font-size: 0.99em;
+}
+
+
+
+
+
+

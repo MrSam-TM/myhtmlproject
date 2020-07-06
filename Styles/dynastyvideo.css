@@ -1,0 +1,154 @@
+
+body{
+
+    background-color: #a52a2a;
+}
+li{
+
+    display: inline-block;
+    margin: 7px;
+    padding: 1em 5em;
+    
+}
+
+.nav{
+    background-color: #000000;
+    background-size: 20%;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+nav a{
+   /* background-image: url("../../SAMUEL.jpg");*/
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav a:hover{
+    color: gold;
+    
+}
+
+nav img{
+    border-radius: 50%;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: seagreen;
+}
+
+.home{
+    margin-right: 5px;
+    margin-left: 3px;
+}
+
+
+header{
+    text-align: end;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2em;
+    text-decoration-color: tomato;
+
+}
+
+header::first-letter{
+    color: gold;
+    font-family: cursive;
+    
+}
+
+header span{
+    background-color: rgb(78, 27, 27);
+    text-shadow: 5px 2px blue;
+    font-weight: bolder;
+    border: 2px dotted red;
+}
+
+h3{
+    font-size: 1.3em;
+    text-transform: capitalize;
+    font-family: serif;
+}
+
+header{
+    text-align: end;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2em;
+    text-decoration-color: tomato;
+
+}
+
+header::first-letter{
+    color: gold;
+    font-family: cursive;
+    
+}
+.movies{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 30%;
+    margin: 0 auto;
+    padding-top: 10%;
+    grid-gap: 10px;
+    padding-left: 10px;
+   
+}
+
+
+
+.spice{
+    background-color:  blue;
+    margin: 0 auto;
+    align-content: center;
+   
+
+}
+
+.number1A{
+    background-color:cadetblue;
+    margin: 0 auto;
+    align-content: center;
+   
+  
+    
+}
+
+.number1B{
+    background-color:cadetblue;
+    margin: 0 auto;
+   
+
+}
+
+.number1{
+
+    background-color: burlywood;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+
+   
+}   
+
+.facebook{
+    fill: #ffffff !important;
+    width: 15px !important;
+    height: 15px !important;
+  
+}
+ 
+.facebook:hover{
+    fill: #00b47e !important;
+    transform: rotate(360deg);
+    transition: ease-in 400ms;
+}
+
+svg{
+    color: #a4cf08;
+    padding-left: 1.5em;
+    width: 20px;
+    height: 20px;
+}

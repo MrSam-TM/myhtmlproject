@@ -1,0 +1,106 @@
+
+@media screen and (  max-width: 1200px){
+    
+  
+
+body{
+    background-color: grey;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+li{
+    display: inline-block;
+    margin: 7px;
+    padding: 1em 5em;
+    
+}
+
+.nav{
+    background-color: black;
+    background-size: 20%;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+nav a{
+   /* background-image: url("../../SAMUEL.jpg");*/
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav a:hover{
+    color: gold;
+    
+}
+
+nav img{
+    border-radius: 50%;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: seagreen;
+}
+.home{
+    margin-right: 5px;
+    margin-left: 3px;
+}
+
+h1{
+    font-size: 2.5em;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+header{
+    text-align: end;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2em;
+    text-decoration-color: tomato;
+
+}
+
+header::first-letter{
+    color: gold;
+    font-family: cursive;
+    
+}
+
+span{
+    background-color: rgb(78, 27, 27);
+    text-shadow: 5px 2px blue;
+    font-weight: bolder;
+    border: 2px dotted red;
+}
+
+h3{
+    font-size: 1.3em;
+    text-transform: capitalize;
+    font-family: serif;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: chartreuse;
+    text-transform: capitalize;
+    font-size: 2rem;
+    text-align: center;
+    border: 2px burlywood solid;
+
+}
+
+.wrapper:hover{
+    color: honeydew;
+
+}
+
+.vscode{
+    height: 15%;
+    background-color: #7fff00;
+}
+    
+}
